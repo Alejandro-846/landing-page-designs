@@ -1,0 +1,33 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: red;
+
+}
+header{
+    background: rgba(47, 47, 47, 1);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14px;
+    margin: 0;
+}
+.div__
+.container_10 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.text_10 {
+}
+.button_10 {
+}
+.grid_10 {
+}
+.img_10- {
+}
