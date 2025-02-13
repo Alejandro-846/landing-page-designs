@@ -1,1 +1,52 @@
 @import url(/css/variable.css);
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.header-P8{
+
+    background-color: #8B1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container-P8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    background-color: #8B1E1E;
+    padding: 20px;
+}
+.img-P8 {
+    position: relative;
+}
+.img-P8 img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.text-P8 {
+    max-width: 400px;
+    margin-left: 169px;
+}
+.text-P8 h1 {
+    font-size: 32px;
+
+}
+.text-P8 p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.btn-P8 {
+    background-color: #E3B23C;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
