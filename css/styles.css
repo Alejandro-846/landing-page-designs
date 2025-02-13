@@ -1,0 +1,73 @@
+@import url(/css/variable.css);
+
+header {
+    display: flex;
+    background: red;
+
+}
+.containerP2 {
+    position: absolute;
+    background: blue;
+    margin-top: 137px;
+    margin-left: 64px;
+    width: 444px;
+    height: 473px;
+}
+.btnP2 {
+}
+.gridP2 {
+    width: 1316px;
+    height: 440px;
+    /* justify-content: center;
+    align-items: center;
+    position: relative; */
+    margin-top: 769px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin-left: 64px;
+    background: green;
+    align-items: center;
+}
+.containerLP2 {
+    position: absolute;
+    background: yellow;
+    width: 408px;
+    height: 480px;
+    margin-left: 529px;
+    margin-top: 65px;
+}
+.containerRP2 {
+    position: absolute;
+    background: violet;
+    width: 408px;
+    height: 480px;
+    margin-left: 968px;
+    margin-top: 227px;
+}
+.div_h1{
+    align-content: center
+    position: relative;
+    background: blue;
+    margin-top: 0px;
+    height: 55px;
+    width: 368px;
+    color: #000000;
+}
+.numeroP2 {
+    background: palegreen;
+    display: flex;
+    margin-top: 0px;
+    height: 55px;
+    width: 368px;;
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+}
+.imgGridP2 {
+    width: 412px;
+    height: 379px;
+    background: pink;
+    
+}
+
