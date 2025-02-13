@@ -1,49 +1,41 @@
+@import url(/css/variable.css);
+
 body {
-    font-family: Arial, sans-serif;
     text-align: center;
     background-color: #fff;
     margin: 0;
     padding: 0;
 }
-
 .containerH1P1 {
     justify-content: center;
     margin: 50px ;
 }
 
 h1 {
-    font-size: 2em;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    font-family: "AvenirLTStd-Heavy";
+    font-size: 64px;
     color: #000;
 }
 
 p {
+    font-family: "AvenirLTStd-RomanHeavy";
     color: #555;
-    font-size: 1em;
+    font-size: 26px;
     max-width: 600px;
     margin: 10px auto;
 }
 
-button {
-    /* background-color: black; */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    border-radius: 5px;
-    margin: 20px 0;
-}
-
-button:hover {
-    background-color: #333;
-}
-
 .gridP1 {
-    /* background-color: #000; */
+    /* background-color: red; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin-top: 200px;
+    gap: 16px;
+    margin-top: 64px;
 }
 
 .image img {
@@ -52,11 +44,14 @@ button:hover {
 }
 
 .bnt1 {
+    border: none;
     justify-content: center;
     width: 158px;
     height: 54px;
-    border-radius: 16px;
+    border-radius: 18px;
     margin-top: 20px;
     background: #252525;
     color: white;
+    cursor: pointer;
+    font-family: AvenirLTStd-RomanHeavy;
 }
