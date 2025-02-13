@@ -2,18 +2,54 @@
 
 header {
     display: flex;
-    background: red;
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+}
 
 }
 .containerP2 {
     position: absolute;
-    background: blue;
     margin-top: 137px;
     margin-left: 64px;
     width: 444px;
     height: 473px;
 }
+.containerP2 p {
+    font-family: AvenirLTStd-Roman;
+    font-size: 26px;
+    color: #252525;
+    margin-top: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.containerP2 h1 {
+    font-family: AvenirLTStd-Heavy;
+    font-size: 56px;
+    color: #252525;
+    margin-top: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
 .btnP2 {
+    width: 157px;
+    height: 50px;
+    border-radius: 16px;
+    background-color: #252525;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 24px;
+    font-family: AvenirLTStd-Roman;
+    font-size: 18px;
+    margin-left: 20px;
 }
 .gridP2 {
     width: 1316px;
@@ -26,12 +62,11 @@ header {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
     margin-left: 64px;
-    background: green;
     align-items: center;
 }
 .containerLP2 {
     position: absolute;
-    background: yellow;
+    border-radius: 16px;
     width: 408px;
     height: 480px;
     margin-left: 529px;
@@ -39,7 +74,6 @@ header {
 }
 .containerRP2 {
     position: absolute;
-    background: violet;
     width: 408px;
     height: 480px;
     margin-left: 968px;
@@ -55,19 +89,20 @@ header {
     color: #000000;
 }
 .numeroP2 {
-    background: palegreen;
+    font-family: AvenirLTStd-Heavy;
     display: flex;
     margin-top: 0px;
     height: 55px;
     width: 368px;;
     font-size: 36px;
     font-weight: 700;
-    color: #000000;
+    color: rgba(37, 37, 37, 0.25); 
 }
 .imgGridP2 {
+    border-radius: 16px;
     width: 412px;
     height: 379px;
-    background: pink;
     
 }
+
 
