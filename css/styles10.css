@@ -1,0 +1,92 @@
+@import url(css/variable10.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+header{
+    background: rgba(47, 47, 47, 1);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14px;
+    margin: 0;
+}
+.container_10 {
+    text-align: left;
+    max-width: 479px;
+}
+
+.text_10 h1 {
+    margin-left: 132px;
+    margin-top: 20px;
+    font-family:Poppins-Bold;
+    font-size: 72px;
+    line-height: 1.2;
+}
+.Design {
+    color: #FEC3C7;
+}
+.Create {
+    color: #9AD7F3;
+}
+.Inspire {
+    color: #6BDFDA;
+}
+
+.text_10 p {
+    margin-top: 20px;
+    margin-left: 132px;
+    font-size: 24px;
+    font-family: Poppins-Regular;
+    color: #ccc;
+    
+}
+
+button {
+    margin-left: 132px;
+    margin-top: 25px;
+    background-color: white;
+    border: none;
+    height: 66px;
+    width: 182px;
+    padding: 10px 20px;
+    font-family: Poppins-Regular;
+    font-size: 24px;
+    border-radius: 32px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ddd;
+
+}
+
+.grid_10 {
+    display: grid;
+    width: 742px;
+    height: 792px;
+    grid-template-columns: repeat(4, 175px);
+    column-gap: 18px;
+    row-gap: 8px;
+    margin-top: 67px;
+    margin-right: 64px;
+}
+
+.grid_10 div {
+    width: 172px;
+    height: 192px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.grid_10 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
